@@ -54,7 +54,7 @@ function UserDash() {
   };
 
   try {
-    const response = await fetch("https://mern-project1-backend-jzpw.onrender.com", {
+    const response = await fetch("https://mern-project1-backend-jzpw.onrender.com/orders", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(order)
