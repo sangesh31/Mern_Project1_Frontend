@@ -1,0 +1,174 @@
+.body {
+background-color: rgba(237, 195, 177, 0.833); 
+  position:relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100vw;
+  height: 100%;    
+  font-family: Arial, sans-serif;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  position: relative;
+  
+  
+}
+
+.logo {
+  border-radius: 35px;
+  object-fit: contain;
+  width: 60px;
+  height: 60px;
+}
+
+.title {
+  color: rgba(154, 100, 61, 0.879);
+  margin-left: 8px;
+  font-size: 24px;
+}
+
+.head {
+  color: rgba(0, 0, 0, 0.734);
+  margin-top: 10px;
+  margin-bottom: 20px;
+   position: absolute;
+  left: 40%;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px;
+  justify-items: center;
+  
+}
+
+.b1 {
+  
+   background: #ffffffdd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 300px;
+
+
+
+}
+
+.b1:hover {
+  transform: scale(1.05);
+}
+
+.b1 img {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 30%;
+  position:relative;
+  top:5px;
+  
+}
+.h{
+  color: #000;
+}
+.btn{
+  background-color: #f9de9fdb;
+  color: #0000008e;
+  top: 20px;
+}
+
+.bill {
+  margin-top: 30px;
+  background: #fff;
+  padding: 15px;
+  margin-left: 25%;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  max-width: 800px;
+}
+
+.bill h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bill-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.bill-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.bill-info {
+  flex: 1;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.qty-control button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bill-summary {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.bill-summary p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirm-btn {
+  width: 100%;
+  padding: 12px;
+  background: orange;
+  border: none;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+.chef-page{
+ background-color: rgba(240, 119, 72, 0.659); 
+  position:relative;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 100vw;
+  height: 100vh;    
+  text-align: center;
+  font-family: Arial, sans-serif;}
